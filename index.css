@@ -1,0 +1,125 @@
+/*blog feed styling */
+
+
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+ul{
+	list-style: none;
+	float: left;
+	display: flex;
+}
+
+li{
+	align-items: center;
+	justify-content: center;
+	margin-right: 10%;
+}
+body{
+	box-sizing: border-box;
+	padding: 0 3%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+/*all things navigation*/
+.hiddenMobile{
+	display: none;
+}
+header {
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+	background: rgba(189, 178, 60, .9);
+	min-width: 100vw;
+	height: auto;
+	padding: 2% 0;
+	font-size: 16px;
+	display: block;
+	float: left;
+	
+}
+nav > a:hover{
+	background: rgba(255, 255, 255, .5);}
+nav > a{
+	position: relative;
+	float: none;
+	display: block;
+	margin: 0 14%;
+	text-decoration: none;
+	color: white ;
+	font-weight: 500;
+}
+
+nav > a:hover{
+	color: #0238F0;
+	font-weight: 900;
+}
+
+#project{
+	display: grid;
+	
+	
+}
+
+.tech-icon{
+	width: 4%;
+}
+
+section#contact{
+	display: flex;
+	flex-direction: row;
+}
+.info {
+
+	margin-left: 0 25%;
+	
+}
+
+/* Font Styling */
+h2{
+	color: grey;
+}
+
+h4{
+	text-transform: uppercase;
+	text-align: right;
+	padding: 3% 0; 
+	min-width: 100vw;
+	background-image:radial-gradient(rgba(189, 178, 60, .9),rgba(255, 255, 255, .8)), url("https://images.unsplash.com/photo-1498612753354-772a30629934?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+	background-size: cover;
+	background-position: center;
+	margin-top: 0;
+	font-size: 20px;
+	height: auto;
+	display:flex;
+	justify-content: center;
+	color: #4f4918;
+}
+
+footer{
+		margin: 10% 0 -5% 0;
+		background: #CBD6B8;
+		height: auto;
+		min-width: 100vw;
+		color: white;
+	}
+
+
+/* for icons https://konpa.github.io/devicon/ */
+@media only screen and (max-width: 600px){
+	*{
+	box-sizing: border-box;
+}
+	header{
+		margin: 0 5%;
+	}
+	nav  a {
+		display: block;
+		/*display:  none;*/
+	}
+	
+}
