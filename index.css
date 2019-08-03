@@ -1,3 +1,10 @@
+.logo{
+	height: 10vh;
+	width: 30%;
+	background: lightgray;
+	
+}
+
 .content-fill{
 	height: 30vh;
 	width: 100%;
