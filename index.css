@@ -2,7 +2,7 @@
 	height: 10vh;
 	width: 30%;
 	background: lightgray;
-	
+
 }
 
 .content-fill{
@@ -87,7 +87,7 @@ nav > a{
 	position: relative;
 	float: none;
 	display: block;
-	margin: 0 14%;
+	margin: 0 6%;
 	text-decoration: none;
 	color: white ;
 	font-weight: 500;
